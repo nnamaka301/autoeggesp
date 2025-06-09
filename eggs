@@ -19,7 +19,7 @@ local desiredPetNames = {
 
 -- 📨 Webhook function
 local function sendWebhook(petName)
-    local url = "https://discord.com/api/webhooks/1381266592314167366/1W77Bj1ueXPhFn0oIDzqL6DyL8am3bZhfRa4Uz7wMSEyAhK6l-4jUFD5qFfCBSiMNBgV"
+    local url = "https://discord.com/api/webhooks/1154627247358103572/lSBBaPNADf8gP1-oIoHd7RGpmMDy11-CCj1R0ACM5gsMI_zEfGmLB_UAOGd2PxQ8vJnO"
 
     local data = {
         content = "@everyone 🎉 YOU GOT A  **" .. petName .. "**! YOU GOT A FREAKING **" .. petName .. "**!"
